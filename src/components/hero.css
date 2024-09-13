@@ -1,0 +1,23 @@
+main {
+    max-width: 1400px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--img {
+    max-width: 70%;
+    align-self: center;
+}
+
+.hero--text {
+    margin-top: 1.5rem;
+    padding-left: 5rem;
+    & h1 {
+        font-size: 3rem;
+    }
+    & p {
+        font-size: 1.25rem;
+        max-width: 35%;
+    }
+}
