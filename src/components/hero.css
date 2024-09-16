@@ -1,6 +1,7 @@
-main {
+.hero {
     max-width: 1400px;
     margin-top: 1rem;
+    padding: 20px;
     display: flex;
     flex-direction: column;
 }
