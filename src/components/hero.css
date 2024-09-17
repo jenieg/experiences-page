@@ -22,3 +22,7 @@
         max-width: 35%;
     }
 }
+
+.card--star {
+    height: 14px;
+}
