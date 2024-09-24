@@ -1,4 +1,4 @@
-import hero from "../assets/hero.png"
+import hero from "../assets/hero-img.jpg"
 import './hero.css'
 
 const Hero = () => {
@@ -6,8 +6,8 @@ const Hero = () => {
         <section className="hero">
             <img src={hero} alt="Gallery of Experiences" className="hero--img"/>
             <div className="hero--text">
-                <h1>Online Experiences</h1>
-                <p>Join unique interactive activities led by one-of-a-kind hosts; all without leaving home.</p>
+                <h1>Find Your Perfect Companion</h1>
+                <p>Discover adorable feline companions—all from the comfort of your home, helping you find your perfect match</p>
             </div>
         </section>
     );

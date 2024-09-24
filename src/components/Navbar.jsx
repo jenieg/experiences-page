@@ -1,11 +1,12 @@
-import airbnbLogo from '../assets/airbnb-logo.png'
+import cat from '../assets/cat.png'
 import './navbar.css'
 
 const Navbar = () => {
     return (
         <>
             <nav>
-                <img src={airbnbLogo} alt="airbnb" className='nav--logo'/>
+                <img src={cat} className='nav--logo' />
+                <h2>Adopt-A-Meow</h2>
             </nav>
         </>
     );
