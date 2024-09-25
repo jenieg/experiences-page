@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        image: "src/assets/images/amber.jpg",
+        image: "./assets/images/amber.jpg",
         name: "Amber",
         coloring: "Orange Tabby",
         price: 50,
