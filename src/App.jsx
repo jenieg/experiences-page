@@ -1,23 +1,30 @@
+/* eslint-disable react/jsx-key */
 
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Card from './components/Card'
-import amber from "./assets/amber.jpg"
+import catData from './assets/data/catData'
 
 function App() {
+
+  const cats = catData.map(cat => {
+    return <Card 
+              image={cat.image} 
+              name={cat.name} 
+              coloring={cat.coloring} 
+              price={cat.price}
+              rating={cat.stats.rating}
+            />
+  })
+
   return (
+
+
     <>
       <Navbar />
       <Hero />
-      <Card 
-        image={amber} 
-        rating="5.0"
-        reviewCount={6}
-        coloring="Orange Tabby" 
-        name="Amber" 
-        price={50}
-      />
+      {cats}
     </>
   )
 }
