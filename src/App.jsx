@@ -11,11 +11,7 @@ function App() {
   const cats = catData.map(cat => {
     return <Card 
               key={cat.id}
-              image={cat.image} 
-              name={cat.name} 
-              coloring={cat.coloring} 
-              price={cat.price}
-              rating={cat.stats.rating}
+              {...cat}
             />
   })
 

@@ -8,7 +8,8 @@ export default [
         stats: {
             rating: 5.0,
             reviewCount: 6
-        }
+        },
+        status: 0
     },
     {
         id: 2,
@@ -19,7 +20,8 @@ export default [
         stats: {
             rating: 5.0,
             reviewCount: 7
-        }
+        },
+        status: 1
     },
     {
         id: 3,
@@ -30,6 +32,7 @@ export default [
         stats: {
             rating: 5.0,
             reviewCount: 7
-        }
+        },
+        status: 1
     }
 ]
