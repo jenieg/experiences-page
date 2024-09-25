@@ -10,6 +10,7 @@ function App() {
 
   const cats = catData.map(cat => {
     return <Card 
+              key={cat.id}
               image={cat.image} 
               name={cat.name} 
               coloring={cat.coloring} 
@@ -24,7 +25,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      {cats}
+      <section className="card-list">
+        {cats}
+      </section>
     </>
   )
 }
