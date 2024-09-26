@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import star from "../assets/images/star.png"
+import star from "../../public/star.png"
 import './card.css'
 
 const Card = (props) => {

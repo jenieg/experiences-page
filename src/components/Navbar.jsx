@@ -1,4 +1,4 @@
-import cat from '../assets/images/cat.png'
+import cat from '../../public/cat.png'
 import './navbar.css'
 
 const Navbar = () => {

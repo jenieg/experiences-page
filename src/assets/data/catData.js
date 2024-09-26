@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        image: "./assets/images/amber.jpg",
+        image: "/amber.jpg",
         name: "Amber",
         coloring: "Orange Tabby",
         price: 50,
@@ -13,7 +13,7 @@ export default [
     },
     {
         id: 2,
-        image: 'src/assets/images/eno.jpg',
+        image: '/eno.jpg',
         name: "Eno",
         coloring: "Brown Calico",
         price: 50,
@@ -25,7 +25,7 @@ export default [
     },
     {
         id: 3,
-        image: 'src/assets/images/milada.jpg',
+        image: '/milada.jpg',
         name: "Milada",
         coloring: "Gray Shorthair",
         price: 50,
